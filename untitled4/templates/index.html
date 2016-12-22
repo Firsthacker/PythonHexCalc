@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>HexCalc</title>
+    </head>
+
+    <body>
+        <h1>Hex to Dec converter</h1>
+
+        <form method="post">
+            <lable for="hexValue">Value:</label>
+            <input name="hexValue" type="text" value="{{hexValue}}"><br>
+
+            <input name="convert" type="submit" value="Convert"><br>
+        </form>
+
+        <p style="color: red">{{errMessage}}</p>
+        <p style="color: green">{{resultMessage}}</p>
+	<br>
+	<p style="color: blue">{{history}}</p>
+    </body>
+</html>
